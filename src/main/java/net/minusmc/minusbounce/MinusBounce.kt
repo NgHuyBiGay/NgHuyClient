@@ -34,10 +34,10 @@ import net.minusmc.minusbounce.utils.render.RenderUtils
 object MinusBounce {
 
     // Client information
-    const val CLIENT_NAME = "MinusBounce"
-    const val CLIENT_FOLDER = "MinusBounce"
+    const val CLIENT_NAME = "NgHuy Client"
+    const val CLIENT_FOLDER = "NgHuy Client"
     const val CLIENT_VERSION = "dev"
-    const val CLIENT_CREATOR = "CCBlueX, MinusMC Team"
+    const val CLIENT_CREATOR = "CCBlueX, MinusMC Team, NgHuyBiGay"
     val API_VERSION = PluginAPIVersion.VER_01
     const val CLIENT_CLOUD = "https://minusmc.github.io/MinusCloud/LiquidBounce"
     
