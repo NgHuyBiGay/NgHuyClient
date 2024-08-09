@@ -1,13 +1,13 @@
 [
   {
-    "modid": "minusbounce",
-    "name": "MinusBounce",
+    "modid": "NgHuyClient",
+    "name": "NgHuyClient-${version}",
     "description": "",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "",
     "updateUrl": "",
-    "authorList": ["CCBlueX", "MinusMC"],
+    "authorList": ["CCBlueX", "MinusMC", "NgHuyZzZ", ],
     "credits": "",
     "logoFile": "",
     "screenshots": [],
