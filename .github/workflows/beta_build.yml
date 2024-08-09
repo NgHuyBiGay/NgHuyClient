@@ -36,5 +36,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: NgHuyClient
-          path: build/libs/nghuyclient-${{env.VERSION}}.jar
+          name: MinusBounce
+          path: build/libs/minusbounce-${{env.VERSION}}.jar
