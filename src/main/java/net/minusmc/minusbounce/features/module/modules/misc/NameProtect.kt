@@ -25,8 +25,8 @@ import javax.imageio.ImageIO
 @ModuleInfo(name = "NameProtect", spacedName = "Name Protect", description = "Changes player names client-side.", category = ModuleCategory.MISC)
 class NameProtect: Module() {
 
-    private val fakeNameValue = TextValue("FakeName", "&cMe")
-    private val allFakeNameValue = TextValue("AllPlayersFakeName", "Censored")
+    private val fakeNameValue = TextValue("FakeName", "&cYou")
+    private val allFakeNameValue = TextValue("AllPlayersFakeName", "IpadKid")
     private val selfValue = BoolValue("Yourself", true)
     private val tagValue = BoolValue("Tag", false)
     val allPlayersValue = BoolValue("AllPlayers", false)
