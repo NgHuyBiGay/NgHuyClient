@@ -7,7 +7,7 @@ package net.minusmc.minusbounce.features.module.modules.movement
 
 import net.minusmc.minusbounce.event.*
 import net.minusmc.minusbounce.features.module.Module
-import net.minusmc.minusbounce.features.module.Category
+import net.minusmc.minusbounce.features.module.ModuleCategory
 import net.minusmc.minusbounce.utils.MovementUtils.direction
 import net.minusmc.minusbounce.utils.block.BlockUtils.collideBlockIntersects
 import net.minusmc.minusbounce.utils.extensions.tryJump
