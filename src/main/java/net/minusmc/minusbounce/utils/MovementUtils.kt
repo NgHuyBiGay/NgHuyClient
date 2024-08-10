@@ -3,14 +3,14 @@
  * A free open source mixin-based injection hacked client for Minecraft using Minecraft Forge.
  * https://github.com/CCBlueX/LiquidBounce/
  */
-package net.ccbluex.liquidbounce.utils
+package net.minusmc.minusbounce.utils
 
-import net.ccbluex.liquidbounce.event.EventTarget
-import net.ccbluex.liquidbounce.event.Listenable
-import net.ccbluex.liquidbounce.event.MoveEvent
-import net.ccbluex.liquidbounce.event.PacketEvent
-import net.ccbluex.liquidbounce.utils.extensions.stopXZ
-import net.ccbluex.liquidbounce.utils.extensions.toRadiansD
+import net.minusmc.minusbounce.event.EventTarget
+import net.minusmc.minusbounce.event.Listenable
+import net.minusmc.minusbounce.event.MoveEvent
+import net.minusmc.minusbounce.event.PacketEvent
+import net.minusmc.minusbounce.utils.extensions.stopXZ
+import net.minusmc.minusbounce.utils.extensions.toRadiansD
 import net.minecraft.network.play.client.C03PacketPlayer
 import kotlin.math.cos
 import kotlin.math.sin
