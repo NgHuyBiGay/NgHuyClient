@@ -17,7 +17,7 @@ import net.minusmc.minusbounce.value.TextValue
 class KillSults: Module() {
 	private val modeValue = ListValue("Mode", arrayOf("Custom"), "Custom")
 	private val directMessage = BoolValue("DirectMessage", false)
-    private val customTextValue = TextValue("CustomTextValue", "L ") { modeValue.get().equals("Custom", true) }
+    private val customTextValue = TextValue("CustomTextValue", "tuổi lồn ") { modeValue.get().equals("Custom", true) }
 
 	private val texts = hashMapOf<String, ArrayList<String>>()
 
