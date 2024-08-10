@@ -34,9 +34,9 @@ abstract class VelocityMode(val modeName: String): MinecraftInstance() {
     open fun onReceivedPacket(event: ReceivedPacketEvent) {}
     open fun onJump(event: JumpEvent) {}
     open fun onPreMotion(event: PreMotionEvent) {}
+	open fun onTick() {}
 	open fun onEntityDamage(event: EntityDamageEvent) {}
 	open fun onMoveInput(event: MoveInputEvent) {}
 	open fun onAttack(event: AttackEvent) {}
 	open fun onKnockback(event: KnockbackEvent) {}
-	open fun onUpdate() {}
 }
